@@ -1,0 +1,53 @@
+
+        .logo {
+            margin: 20px;
+            margin-top: 50px;
+            padding: 5px;
+            background-color: white;
+            border: 3px solid black;
+            width: 200px;
+            border-radius: 50%;
+        }
+
+        .box {
+            margin: auto;
+            padding: 20px;
+            border: 3px white solid;
+            width: 80%;
+            max-width: 400px;
+            display: flex;
+            border-radius: 22px;
+            align-items: center;
+            z-index: inherit;
+            margin-top: 20px;
+        }
+
+        .box-text {
+            font-size: 24px;
+        }
+
+        .icon {
+            height: 40px;
+            width: 40px;
+            margin-right: 20px;
+            filter: invert(1);
+        }
+
+        .box-a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .box:hover {
+            transition: .3s ease-in-out;
+            opacity: 0.8;
+        }
+
+        .tree {
+            margin: 40px;
+            width: 80%;
+            max-width: 400px;
+            z-index: 1000;
+            margin: auto;
+            margin-bottom: 50px;
+        }
